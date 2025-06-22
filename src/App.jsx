@@ -9,8 +9,8 @@ function App(){
     <Moviecontext>
     <Navbar></Navbar>
     <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/favorites" element={<Favorites/>}></Route>
+      <Route path="/movie-search-app" element={<Home/>}></Route>
+      <Route path="/movie-search-app/favorites" element={<Favorites/>}></Route>
     </Routes>
     </Moviecontext>
     </>
