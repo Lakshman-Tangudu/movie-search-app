@@ -6,7 +6,6 @@ function Home() {
     const [search, setsearch] = useState('');
     const [movies, setmovies] = useState([]);
     const [loading, setloading] = useState(true);
-    console.log(movies)
 
 
     const handleSearch = (e) => {
@@ -18,7 +17,6 @@ function Home() {
             const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=eee180db727d516f5b3ea40c940bc3fc&language=en-US&page=1`);
             const data = await res.json();
             setmovies(data.results);
-            console.log(data.results);
             setloading(false);
         }
         laodmovies();
