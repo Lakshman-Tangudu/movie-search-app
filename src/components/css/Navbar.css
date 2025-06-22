@@ -1,0 +1,30 @@
+.Navbar{
+    background-color: rgb(98, 94, 94);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-home,.nav-fav{
+    background-color: rgb(152, 144, 144);
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.nav-fav{
+    margin-left: 0;
+    margin-right:15px;
+    width: 70px;
+    height: 35px;
+}
+
+.nav-home a, .nav-fav a {
+  color: rgb(194, 25, 25);
+  text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home-searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color:#2A2A2A;
+
+}
+
+.home-searchbar-input{
+    height: 25px;
+    max-width: 300px;
+    min-width: 100px;
+    width: 300px;
+}
+
+.home-searchbar-button{
+    height: 30px;
+    background-color: red;
+    border: none;
+}
+
+.home-searchbar-button:hover{
+    cursor: pointer;
+}
+
+.home-movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background-color:#121212;
+}
